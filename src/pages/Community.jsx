@@ -1067,13 +1067,14 @@ const Community = () => {
               description="contributor"
               image="/images/anon.jpg"
             />
+              {/*
             <UserCard
               name="A Mo"
               title="Business Development and Community Representative"
               description="Discord: A_Mo#2060"
               image="/images/anon.jpg"
             />
-            {/*
+          
              <UserCard
               name="breukmeister"
               title="Community Representative"
@@ -1083,13 +1084,14 @@ const Community = () => {
             */}
              <UserCard
               name="FD"
-              title="Community Representative, Investor"
+              title="Business Development and Community Representative"
               description="Telegram: @iayfd"
+              e-mail=fd@3dpass.org
               image="/images/anon.jpg"
             />
             <UserCard
               name="Lzmzjy"
-              title="Community Representative"
+              title="Business Development and Community Representative"
               description="Discord: lzmzjy, Telegram: @lzmzjy"
               image="/images/anon.jpg"
             />
@@ -1352,3 +1354,4 @@ const Community = () => {
 };
 
 export default Community;
+
